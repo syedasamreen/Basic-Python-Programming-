@@ -1,0 +1,12 @@
+#polkit agent activation
+groupadd libvirtd
+sudo usermod -a -G libvirtd $USER
+vi/etc/libvirt/libvirtd.conf
+vi/etc/polkit-1/localauthority/50-local.d/50-org.libvirtd-group-access.pkla
+[libvirtd group Management Access]
+Identity=unix-group:libvirtd
+Action=org.libvirt.unix.manage
+ResultAny=yes
+ResultInactive=yes
+ResultActive=yes
+service libvirtd restart

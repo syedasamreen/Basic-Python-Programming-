@@ -1,0 +1,53 @@
+Hostname:KVMTestServer
+scpufreq(current=2.118, min=800.0, max=3600.0)
+scpufreq(current=3.6, min=800.0, max=3600.0)
+scpufreq(current=3.6, min=800.0, max=3600.0)
+scpufreq(current=3.6, min=800.0, max=3600.0)
+CPU usage
+Kernel: 63100950000000
+idle: 74192000000000
+user: 1376693600000000
+iowait: 11160410000000
+MEMORY usage
+Total: 40941336
+Free: 3623876
+Buffers: 112
+Cached: 11820704
+DISK i/o
+loop0 / sdiskio(read_count=310, write_count=0, read_bytes=1679360, write_bytes=0, read_time=2119, write_time=0, read_merged_count=0, write_merged_count=0, busy_time=1872)
+loop1 / sdiskio(read_count=14, write_count=0, read_bytes=17408, write_bytes=0, read_time=45, write_time=0, read_merged_count=0, write_merged_count=0, busy_time=56)
+loop2 / sdiskio(read_count=325, write_count=0, read_bytes=1724416, write_bytes=0, read_time=4076, write_time=0, read_merged_count=0, write_merged_count=0, busy_time=3676)
+loop3 / sdiskio(read_count=263, write_count=0, read_bytes=846848, write_bytes=0, read_time=1670, write_time=0, read_merged_count=0, write_merged_count=0, busy_time=1800)
+loop4 / sdiskio(read_count=582, write_count=0, read_bytes=6762496, write_bytes=0, read_time=5829, write_time=0, read_merged_count=0, write_merged_count=0, busy_time=6360)
+loop5 / sdiskio(read_count=277, write_count=0, read_bytes=877568, write_bytes=0, read_time=1287, write_time=0, read_merged_count=0, write_merged_count=0, busy_time=1340)
+loop6 / sdiskio(read_count=630, write_count=0, read_bytes=6533120, write_bytes=0, read_time=4460, write_time=0, read_merged_count=0, write_merged_count=0, busy_time=5136)
+loop7 / sdiskio(read_count=40, write_count=0, read_bytes=131072, write_bytes=0, read_time=1595, write_time=0, read_merged_count=0, write_merged_count=0, busy_time=1612)
+sda / sdiskio(read_count=103764, write_count=279059, read_bytes=3465418752, write_bytes=4818539520, read_time=2207304, write_time=2769805, read_merged_count=50441, write_merged_count=292250, busy_time=1431492)
+sda1 / sdiskio(read_count=165, write_count=2, read_bytes=6818816, write_bytes=1024, read_time=3708, write_time=7, read_merged_count=1018, write_merged_count=0, busy_time=2908)
+sda2 / sdiskio(read_count=2, write_count=0, read_bytes=2048, write_bytes=0, read_time=57, write_time=0, read_merged_count=0, write_merged_count=0, busy_time=64)
+sda5 / sdiskio(read_count=103268, write_count=279057, read_bytes=3456160768, write_bytes=4818538496, read_time=2178488, write_time=2769798, read_merged_count=49423, write_merged_count=292250, busy_time=1420068)
+loop8 / sdiskio(read_count=446, write_count=0, read_bytes=1861632, write_bytes=0, read_time=5001, write_time=0, read_merged_count=0, write_merged_count=0, busy_time=3432)
+loop9 / sdiskio(read_count=412, write_count=0, read_bytes=1828864, write_bytes=0, read_time=3850, write_time=0, read_merged_count=0, write_merged_count=0, busy_time=2676)
+loop10 / sdiskio(read_count=1152, write_count=0, read_bytes=10838016, write_bytes=0, read_time=4226, write_time=0, read_merged_count=0, write_merged_count=0, busy_time=4972)
+loop11 / sdiskio(read_count=77, write_count=0, read_bytes=1133568, write_bytes=0, read_time=2997, write_time=0, read_merged_count=0, write_merged_count=0, busy_time=2652)
+loop12 / sdiskio(read_count=306, write_count=0, read_bytes=1585152, write_bytes=0, read_time=1428, write_time=0, read_merged_count=0, write_merged_count=0, busy_time=1104)
+loop13 / sdiskio(read_count=319, write_count=0, read_bytes=885760, write_bytes=0, read_time=891, write_time=0, read_merged_count=0, write_merged_count=0, busy_time=936)
+loop14 / sdiskio(read_count=82, write_count=0, read_bytes=251904, write_bytes=0, read_time=1282, write_time=0, read_merged_count=0, write_merged_count=0, busy_time=1304)
+loop15 / sdiskio(read_count=1809, write_count=0, read_bytes=13948928, write_bytes=0, read_time=4170, write_time=0, read_merged_count=0, write_merged_count=0, busy_time=5940)
+loop16 / sdiskio(read_count=77, write_count=0, read_bytes=228352, write_bytes=0, read_time=1339, write_time=0, read_merged_count=0, write_merged_count=0, busy_time=1360)
+loop17 / sdiskio(read_count=49, write_count=0, read_bytes=370688, write_bytes=0, read_time=1195, write_time=0, read_merged_count=0, write_merged_count=0, busy_time=1140)
+loop18 / sdiskio(read_count=48, write_count=0, read_bytes=162816, write_bytes=0, read_time=778, write_time=0, read_merged_count=0, write_merged_count=0, busy_time=804)
+loop19 / sdiskio(read_count=84, write_count=0, read_bytes=1189888, write_bytes=0, read_time=1733, write_time=0, read_merged_count=0, write_merged_count=0, busy_time=1712)
+loop20 / sdiskio(read_count=907, write_count=0, read_bytes=2027520, write_bytes=0, read_time=2201, write_time=0, read_merged_count=0, write_merged_count=0, busy_time=2384)
+loop21 / sdiskio(read_count=811, write_count=0, read_bytes=30066688, write_bytes=0, read_time=12077, write_time=0, read_merged_count=0, write_merged_count=0, busy_time=14616)
+loop22 / sdiskio(read_count=441, write_count=0, read_bytes=1856512, write_bytes=0, read_time=4511, write_time=0, read_merged_count=0, write_merged_count=0, busy_time=2408)
+loop23 / sdiskio(read_count=3845, write_count=0, read_bytes=138791936, write_bytes=0, read_time=12676, write_time=0, read_merged_count=0, write_merged_count=0, busy_time=21348)
+loop24 / sdiskio(read_count=1542, write_count=0, read_bytes=9105408, write_bytes=0, read_time=3466, write_time=0, read_merged_count=0, write_merged_count=0, busy_time=4176)
+loop25 / sdiskio(read_count=3957, write_count=0, read_bytes=10584064, write_bytes=0, read_time=4030, write_time=0, read_merged_count=0, write_merged_count=0, busy_time=4984)
+loop26 / sdiskio(read_count=11, write_count=0, read_bytes=14336, write_bytes=0, read_time=0, write_time=0, read_merged_count=0, write_merged_count=0, busy_time=8)
+NETWORK i/o
+lo / snetio(bytes_sent=23240499, bytes_recv=23240499, packets_sent=78141, packets_recv=78141, errin=0, errout=0, dropin=0, dropout=0)
+enp3s0 / snetio(bytes_sent=48411032, bytes_recv=273130703, packets_sent=207095, packets_recv=514764, errin=0, errout=0, dropin=0, dropout=0)
+virbr0 / snetio(bytes_sent=0, bytes_recv=0, packets_sent=0, packets_recv=0, errin=0, errout=0, dropin=0, dropout=0)
+virbr0-nic / snetio(bytes_sent=0, bytes_recv=0, packets_sent=0, packets_recv=0, errin=0, errout=0, dropin=0, dropout=0)
+docker0 / snetio(bytes_sent=0, bytes_recv=0, packets_sent=0, packets_recv=0, errin=0, errout=0, dropin=0, dropout=0)
