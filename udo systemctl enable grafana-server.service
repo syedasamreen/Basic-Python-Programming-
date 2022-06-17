@@ -1,0 +1,20 @@
+[0;1;32m●[0m grafana-server.service - Grafana instance
+     Loaded: loaded (/lib/systemd/system/grafana-server.service; enabled; vendor preset: enabled)
+     Active: [0;1;32mactive (running)[0m since Wed 2022-01-05 11:31:00 IST; 44s ago
+       Docs: http://docs.grafana.org
+   Main PID: 37011 (grafana-server)
+      Tasks: 13 (limit: 9267)
+     Memory: 29.9M
+     CGroup: /system.slice/grafana-server.service
+             └─37011 /usr/sbin/grafana-server --config=/etc/grafana/grafana.ini --pidfile=/run/grafana/grafana-server.pid --packaging=deb cfg:default.paths.logs=/var/log/grafana cfg:default.paths.data=/var/lib/grafana cfg:default.paths.plugins=/var/lib/grafana/plugins cfg:default.paths.provisioning=/etc/grafana/provisioning
+
+Jan 05 11:31:02 vladmin-HP-280-G4-MT-Business-PC grafana-server[37011]: t=2022-01-05T11:31:02+0530 lvl=info msg="Executing migration" logger=migrator id="remove duplicated org role"
+Jan 05 11:31:02 vladmin-HP-280-G4-MT-Business-PC grafana-server[37011]: t=2022-01-05T11:31:02+0530 lvl=info msg="migrations completed" logger=migrator performed=9 skipped=429 duration=1.642690981s
+Jan 05 11:31:02 vladmin-HP-280-G4-MT-Business-PC grafana-server[37011]: t=2022-01-05T11:31:02+0530 lvl=info msg="Validated license token" logger=licensing appURL=http://localhost:3000/ source=disk status=NotFound
+Jan 05 11:31:02 vladmin-HP-280-G4-MT-Business-PC grafana-server[37011]: t=2022-01-05T11:31:02+0530 lvl=info msg="Initialising plugins" logger=plugin.manager
+Jan 05 11:31:02 vladmin-HP-280-G4-MT-Business-PC grafana-server[37011]: t=2022-01-05T11:31:02+0530 lvl=info msg="Plugin registered" logger=plugin.manager pluginId=input
+Jan 05 11:31:02 vladmin-HP-280-G4-MT-Business-PC grafana-server[37011]: t=2022-01-05T11:31:02+0530 lvl=info msg="Live Push Gateway initialization" logger=live.push_http
+Jan 05 11:31:02 vladmin-HP-280-G4-MT-Business-PC grafana-server[37011]: t=2022-01-05T11:31:02+0530 lvl=info msg="Writing PID file" logger=server path=/run/grafana/grafana-server.pid pid=37011
+Jan 05 11:31:02 vladmin-HP-280-G4-MT-Business-PC grafana-server[37011]: t=2022-01-05T11:31:02+0530 lvl=warn msg="Scheduling and sending of reports disabled, SMTP is not configured and enabled. Configure SMTP to enable." logger=report
+Jan 05 11:31:02 vladmin-HP-280-G4-MT-Business-PC grafana-server[37011]: t=2022-01-05T11:31:02+0530 lvl=info msg="HTTP Server Listen" logger=http.server address=[::]:3000 protocol=http subUrl= socket=
+Jan 05 11:31:27 vladmin-HP-280-G4-MT-Business-PC systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m/lib/systemd/system/grafana-server.service:43: Unknown key name 'ProtectProc' in section 'Service', ignoring.[0m

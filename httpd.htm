@@ -1,0 +1,37 @@
+<Directory "/var/www/cgi-bin">
+   AllowOverride None
+   Options ExecCGI
+   Order allow,deny
+   Allow from all
+</Directory>
+
+<Directory "/var/www/cgi-bin">
+Options All
+</Directory>
+
+<form action = "/cgi-bin/hello_get.py" method = "get">
+   First Name: <input type = "text" name = "first_name">  <br />
+
+   Last Name: <input type = "text" name = "last_name" />
+   <input type = "submit" value = "Submit" />
+</form>
+
+<form action = "/cgi-bin/checkbox.cgi" method = "POST" target = "_blank">
+   <input type = "checkbox" name = "maths" value = "on" /> Maths
+   <input type = "checkbox" name = "physics" value = "on" /> Physics
+   <input type = "submit" value = "Select Subject" />
+</form>
+
+<form action = "/cgi-bin/radiobutton.py" method = "post" target = "_blank">
+   <input type = "radio" name = "subject" value = "maths" /> Maths
+   <input type = "radio" name = "subject" value = "physics" /> Physics
+   <input type = "submit" value = "Select Subject" />
+</form>
+
+
+<form action = "/cgi-bin/textarea.py" method = "post" target = "_blank">
+   <textarea name = "textcontent" cols = "40" rows = "4">
+      Type your text here...
+   </textarea>
+   <input type = "submit" value = "Submit" />
+</form>
